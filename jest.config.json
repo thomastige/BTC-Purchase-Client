@@ -1,0 +1,16 @@
+{
+	"moduleFileExtensions": [
+		"js",
+		"jsx"
+	],	
+	 "moduleNameMapper": {
+		"App": "<rootDir>/src/containers/app.jsx",
+		"reducer": "<rootDir>/src/reducers",
+		"actions": "<rootDir>/src/actions",
+		"UsdInput": "<rootDir>/src/inputs/UsdInput",
+		"BtcInput": "<rootDir>/src/inputs/BtcInput",
+		"InputForm": "<rootDir>/src/inputs/InputForm",
+		"Wallet": "<rootDir>/src/wallet/Wallet"
+	},
+	"snapshotSerializers": ["enzyme-to-json/serializer"]
+}

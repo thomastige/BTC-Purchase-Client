@@ -1,0 +1,4 @@
+export const SET_BTC_FXRATE = 'SET_BTC_FXRATE';
+export const SET_USD_INPUT = 'SET_USD_INPUT';
+export const INITIALIZE_WALLET = 'SET_WALLET';
+export const UPDATE_WALLET = 'SET_WALLET';

@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Snapshots 1`] = `
+<div
+  id="root"
+>
+  <Connect(BtcFxRate) />
+  <Connect(Wallet) />
+  <Connect(InputForm) />
+</div>
+`;
+
+exports[`Testing Snapshots 2`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <div
+      id="root"
+    >
+      <Connect(BtcFxRate)>
+        <BtcFxRate
+          actions={[Function]}
+          dispatch={[Function]}
+        >
+          <div
+            hidden="true"
+          />
+        </BtcFxRate>
+      </Connect(BtcFxRate)>
+      <Connect(Wallet)>
+        <Wallet
+          btcValue="0.00000000"
+          dispatch={[Function]}
+          usdValue="200.00"
+        >
+          <div>
+            <p>
+              Account Balance
+            </p>
+            <table
+              id="wallet"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    className="walletRowTitle"
+                  >
+                    USD
+                  </td>
+                  <td>
+                    200.00
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="walletRowTitle"
+                  >
+                    BTC
+                  </td>
+                  <td>
+                    0.00000000
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </Wallet>
+      </Connect(Wallet)>
+      <Connect(InputForm)>
+        <InputForm
+          actions={[Function]}
+          btcValue={0}
+          dispatch={[Function]}
+          usdValue={200}
+        >
+          <div>
+            <p>
+              Trade
+            </p>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <Connect(UsdInput)>
+                      <UsdInput
+                        actions={[Function]}
+                        dispatch={[Function]}
+                        placeholderText="Fetching Exchange Rates..."
+                      >
+                        <div>
+                          <input
+                            className="inputLabel"
+                            id="UsdInputLabel"
+                            readOnly={true}
+                            value="USD"
+                          />
+                          <br />
+                          <br />
+                          <input
+                            id="usdInput"
+                            onChange={[Function]}
+                            placeholder="Fetching Exchange Rates..."
+                          />
+                        </div>
+                      </UsdInput>
+                    </Connect(UsdInput)>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              For
+            </p>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <Connect(BtcInput)>
+                      <BtcInput
+                        btcValue=""
+                        dispatch={[Function]}
+                      >
+                        <div>
+                          <input
+                            className="inputLabel"
+                            readOnly={true}
+                            value="BTC"
+                          />
+                          <br />
+                          <br />
+                          <input
+                            id="btcDisplay"
+                            placeholder="Display Quote"
+                            readOnly={true}
+                            value=""
+                          />
+                        </div>
+                      </BtcInput>
+                    </Connect(BtcInput)>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      id="tradeButton"
+                      onClick={[Function]}
+                    >
+                      Trade
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </InputForm>
+      </Connect(InputForm)>
+    </div>
+  </App>
+</Provider>
+`;
