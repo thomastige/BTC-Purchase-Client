@@ -15,7 +15,6 @@ Clone this repo, then run ```npm install```  followed by ```npm start```. The ap
 As the mock-up this exercise was based on was very simple and abstract of actual requirements, some liberties were taken. 
 
  - The client will not let the user spend more than what is available as an account balance.
- - It is possible to sell BTC by inputting a negative value in the client.
  - Clicking on the "Trade" button will perform the operation and empty the USD text input.
  - While the BTC exchange rate is being retrieved and calculated, the USD text input is disabled and will display a message indicating that it is fetching the data.
  - Writing text in the USD input sets the BTC input value to NaN (Not A Number), and triggering a trade will not perform any operation.

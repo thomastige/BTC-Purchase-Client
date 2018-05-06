@@ -62,7 +62,7 @@ function mapStateToProps(state){
 	var currentBtc = state.walletReducer.btc;
 	var newUsd = currentUsd;
 	var newBtc = currentBtc;
-	if (state.usdInputReducer <= currentUsd) {
+	if (state.usdInputReducer <= currentUsd && state.usdInputReducer >= 0) {
 		newUsd = currentUsd - state.usdInputReducer;
 		newBtc = newBtc + state.btcFxRateReducer * state.usdInputReducer;
 	}
